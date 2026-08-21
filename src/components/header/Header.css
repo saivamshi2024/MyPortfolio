@@ -1,33 +1,25 @@
-/* header */
+/* =========================
+   HEADER
+========================= */
 
 .header {
   display: block;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
-  /* background-color: #fff; */
-}
-.grey-color {
-  color: #868e96;
+  overflow: visible;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  /* color: black; */
   text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
 }
 
 .header .logo {
@@ -38,14 +30,16 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
   padding: 0 10px;
-  /* color: #55198b; */
 }
 
-/* menu */
+/* =========================
+   MENU
+========================= */
 
 .menu {
   font-family: "Google Sans Regular";
@@ -57,7 +51,9 @@
   transition: max-height 0.2s ease-out;
 }
 
-/* menu icon */
+/* =========================
+   MOBILE MENU ICON
+========================= */
 
 .header .menu-icon {
   cursor: pointer;
@@ -96,14 +92,16 @@
   top: -5px;
 }
 
-/* menu btn */
+/* =========================
+   MENU BUTTON
+========================= */
 
 .header .menu-btn {
   display: none;
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 370px;
+  max-height: 600px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -123,26 +121,159 @@
   top: 0;
 }
 
-/* 48em = 768px */
+/* =========================
+   THEME CONTAINER
+========================= */
+
+.theme-container {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  float: none !important;
+  margin-left: 5px;
+}
+
+/* =========================
+   THEME BUTTON
+========================= */
+
+.theme-toggle {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+
+  border: 1px solid currentColor;
+  border-radius: 7px;
+
+  cursor: pointer;
+
+  padding: 0;
+  outline: none;
+
+  transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(128, 128, 128, 0.08);
+  transform: none;
+}
+
+.theme-toggle svg {
+  display: block;
+}
+
+/* =========================
+   THEME PALETTE
+========================= */
+
+.theme-palette {
+  position: absolute;
+
+  top: 55px;
+  right: 0;
+
+  width: 140px;
+
+  padding: 10px 0;
+
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  z-index: 99999;
+
+  overflow: visible;
+}
+
+/* =========================
+   THEME OPTIONS
+========================= */
+
+.theme-option {
+  display: block;
+
+  width: 100%;
+
+  padding: 7px 14px;
+
+  margin: 0;
+
+  border: none;
+
+  background: transparent;
+
+  text-align: left;
+
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+
+  cursor: pointer;
+
+  outline: none;
+
+  transition: background-color 0.2s ease;
+}
+
+.theme-option:hover {
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+/* =========================
+   DESKTOP
+========================= */
 
 @media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
+  .header li {
+    float: left;
+  }
+
+  .header li.theme-container {
+    float: none !important;
+    display: flex !important;
+    align-items: center;
+  }
+
   .header .menu {
     max-height: none;
+    overflow: visible;
   }
+
   .header .menu-icon {
     display: none;
   }
 }
+
+/* =========================
+   TABLET
+========================= */
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+  .theme-palette {
+    top: 45px;
+    right: 0;
   }
 }
