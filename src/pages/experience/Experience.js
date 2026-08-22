@@ -148,8 +148,14 @@ class Experience extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="experience-main">
-        <Header theme={theme} />
+      <div className="experience-main" style={{ backgroundColor: theme.body }}>
+        <Header
+          theme={theme}
+          toggleTheme={this.props.toggleTheme}
+          showThemes={this.props.showThemes}
+          themes={this.props.themes}
+          changeTheme={this.props.changeTheme}
+        />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">

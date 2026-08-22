@@ -31,6 +31,8 @@ class SoftwareSkill extends React.Component {
                       <span
                         className="iconify"
                         data-icon={logo.fontAwesomeClassname}
+                        data-width="48"
+                        data-height="48"
                         style={logo.style}
                         data-inline="false"
                       ></span>

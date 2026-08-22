@@ -21,7 +21,13 @@ class Contact extends Component {
 
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          toggleTheme={this.props.toggleTheme}
+          showThemes={this.props.showThemes}
+          themes={this.props.themes}
+          changeTheme={this.props.changeTheme}
+        />
 
         <div className="basic-contact">
           {/* CONTACT SECTION */}

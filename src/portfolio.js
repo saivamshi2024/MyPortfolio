@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -90,7 +90,7 @@ const skills = {
   data: [
     {
       title: "Data Science with GEN AI",
-      fileName: "DataScienceImg",
+      fileName: "FullStackImg",
       skills: [
         "🔍 Exploratory Data Analysis and Data Visualization using Python libraries.",
         "🧠 Developing Machine Learning and Deep Learning models.",
@@ -99,11 +99,6 @@ const skills = {
         "🤖 Building AI solutions and integrating with Generative AI frameworks.",
         "🌐 Creating basic web pages using HTML and CSS.",
         "📈 Developing interactive dashboards with Streamlit & Gradio.",
-        "🧠 Gaining hands-on knowledge of AI fundamentals including perception, reasoning, and autonomous decision-making.",
-        "🤝 Learning to build agent-based systems that interact with environments and exhibit autonomous goal-driven behavior.",
-        "💬 Understanding the architecture and capabilities of LLMs like GPT, Claude, and LLaMA for natural language processing tasks.",
-        "🛠️ Practicing prompt engineering and fine-tuning to customize LLM behavior for real-world use cases.",
-        "🧩 Learning how to integrate LLMs with external APIs/tools to perform complex tasks such as data analysis, report generation, or coding.",
       ],
       softwareSkills: [
         {
@@ -130,7 +125,7 @@ const skills = {
         },
         {
           skillName: "Pandas",
-          fontAwesomeClassname: "logos:pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
           style: {
             color: "#150458",
           },
@@ -184,7 +179,7 @@ const skills = {
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
           style: {
             backgroundColor: "transparent",
           },
@@ -227,8 +222,97 @@ const skills = {
       ],
     },
     {
+      title: "Agentic AI & LLM Systems",
+      fileName: "AgenticAIImg",
+      skills: [
+        "🌱 Learning to build agentic AI applications as a fresher by combining data science workflows with LLM-based assistants.",
+        "🤝 Exploring LangChain and LangGraph to create simple multi-step agents for question answering, routing, and task automation.",
+        "📚 Building beginner RAG projects using embeddings, document loading, and semantic search for chat-with-your-data use cases.",
+        "🛠️ Practicing tool calling and Model Context Protocol (MCP) to connect LLMs with APIs and external tools.",
+        "💬 Working on prompt engineering, chat memory, and basic session handling for more reliable LLM responses.",
+        "🖥️ Using models like OpenAI, Gemini, Llama, Gemma, and Groq, and trying local inference with Ollama.",
+        "📈 Connecting agentic AI with full-stack data science skills — Python, analysis, and simple web apps using Streamlit and Gradio.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "ri:openai-fill",
+          style: {
+            color: "#412991",
+          },
+        },
+        {
+          skillName: "LangChain",
+          fontAwesomeClassname: "simple-icons:langchain",
+          style: {
+            color: "#1C3C3C",
+          },
+        },
+        {
+          skillName: "Anthropic",
+          fontAwesomeClassname: "simple-icons:anthropic",
+          style: {
+            color: "#D4A27F",
+          },
+        },
+        {
+          skillName: "Google Gemini",
+          fontAwesomeClassname: "simple-icons:googlegemini",
+          style: {
+            color: "#8E75B2",
+          },
+        },
+        {
+          skillName: "Chroma",
+          fontAwesomeClassname: "logos:chroma",
+        },
+        {
+          skillName: "Meta Llama",
+          fontAwesomeClassname: "simple-icons:ollama",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "LangGraph",
+          fontAwesomeClassname: "simple-icons:langgraph",
+          style: {
+            color: "#1C3C3C",
+          },
+        },
+        {
+          skillName: "CrewAI",
+          fontAwesomeClassname: "simple-icons:crewai",
+          style: {
+            color: "#FF5A1F",
+          },
+        },
+        {
+          skillName: "AutoGen",
+          fontAwesomeClassname: "mdi:eye-outline",
+          style: {
+            color: "#00A4A6",
+          },
+        },
+        {
+          skillName: "MCP",
+          fontAwesomeClassname: "simple-icons:modelcontextprotocol",
+          style: {
+            color: "#411400",
+          },
+        },
+        {
+          skillName: "Groq",
+          fontAwesomeClassname: "bxl:groq-ai",
+          style: {
+            color: "#F55036",
+          },
+        },
+      ],
+    },
+    {
       title: "Data Analytics & Business Analytics",
-      fileName: "FullStackImg",
+      fileName: "DataScienceImg",
       skills: [
         "📊 Deriving actionable insights from structured and unstructured data using analytical techniques",
         "📈 Experience in business intelligence tools like Power BI for interactive dashboards and reporting",
@@ -446,10 +530,10 @@ const experience = {
           company_url: "https://www.nmrk.com/",
           logo_path: "Newmark.jpg",
           duration: "June 2026 - Present",
-          location: "Hyderabad, Telangana",
+          location: "Hyderabad, Telangana, India",
           description:
             "Currently working as an Intern at Newmark, gaining hands-on experience in full-stack web development using C# and React. Contributing to web application projects and developing skills in both frontend and backend technologies.",
-          color: "#000000",
+          color: "#1D4ED8",
         },
 
         {
@@ -458,10 +542,10 @@ const experience = {
           company_url: "https://www.wipro.com/",
           logo_path: "Wipro-logo.png",
           duration: "August 2025 - June 2026",
-          location: "Hyderabad, Telangana",
+          location: "Hyderabad, Telangana, India",
           description:
             "Worked in the Payments process, handling and reviewing payment-related transactions across four operational pools: FT, ACH, PMH, and PV. Ensured accurate processing of transactions, followed defined procedures and quality standards, investigated exceptions, and maintained accuracy while meeting process requirements and turnaround times.",
-          color: "#000000",
+          color: "#6D28D9",
         },
 
         {
@@ -470,10 +554,10 @@ const experience = {
           company_url: "https://nareshit.com/",
           logo_path: "Naresh_It.png",
           duration: "February 2025 - July 2025",
-          location: "Hyderabad, Telangana",
+          location: "Hyderabad, Telangana, India",
           description:
             "At Naresh i Technologies, I explored Data Science and Generative AI, gaining hands-on experience with Python, ML models, data analytics, and building AI solutions using modern Gen AI frameworks.",
-          color: "#000000",
+          color: "#0D9488",
         },
       ],
     },
@@ -487,10 +571,10 @@ const experience = {
           company_url: "https://eduskillsfoundation.org/",
           logo_path: "eduskills.png",
           duration: "April 2024 - June 2024",
-          location: "Remote, Hyderabad",
+          location: "Remote, Hyderabad, Telangana, India",
           description:
             "During my remote AI-ML internship, I gained practical experience in machine learning, data preprocessing, model building, and explored Generative AI concepts while working on real-time projects and collaborative tasks.",
-          color: "#000000",
+          color: "#EA580C",
         },
       ],
     },

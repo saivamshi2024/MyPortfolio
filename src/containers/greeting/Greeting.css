@@ -38,9 +38,11 @@
 }
 
 .greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
+  font-size: 40px;
+  line-height: 1.4;
   font-family: "Google Sans Bold Italic";
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .greeting-text-p {
@@ -59,6 +61,9 @@
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+  }
+  .greeting-nickname {
+    font-size: 32px;
   }
   .greeting-text-p {
     font-size: 20px;

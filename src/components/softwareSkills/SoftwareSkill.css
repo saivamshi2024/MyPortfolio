@@ -1,27 +1,45 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin: 8px 12px;
+  padding: 6px;
+  border-radius: 10px;
   font-family: "Google Sans Regular";
+  vertical-align: middle;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.software-skill-inline:hover {
+  transform: scale(1.08);
+  background-color: rgba(128, 128, 128, 0.12);
 }
 
 .software-skill-inline > i {
   color: #868e96;
 }
 
-.software-skill-inline > i:hover {
-  color: #645beb;
+.software-skill-inline .iconify,
+.software-skill-inline svg {
+  width: 48px !important;
+  height: 48px !important;
+  font-size: 48px !important;
+  display: block;
 }
 
 .skill-image {
-  height: 48px;
+  width: 48px !important;
+  height: 48px !important;
+  object-fit: contain;
+  display: block;
 }

@@ -17,6 +17,12 @@ const onMouseOut = (event) => {
 class Header extends Component {
   themeBtnRef = createRef();
 
+  componentDidUpdate(prevProps) {
+    if (this.props.showThemes && !prevProps.showThemes) {
+      this.forceUpdate();
+    }
+  }
+
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "/home";
@@ -223,6 +229,7 @@ class Header extends Component {
 
                 {/* THEME MENU — rendered into a portal so nothing can overlap it */}
                 {this.props.showThemes &&
+                  this.props.themes &&
                   ReactDOM.createPortal(
                     <div className="theme-palette" style={paletteStyle}>
                       {this.props.themes.map((themeOption, index) => (

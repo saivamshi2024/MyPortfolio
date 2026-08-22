@@ -79,6 +79,12 @@
   border-radius: 7px;
   margin: 10px;
   box-shadow: 5px 5px 5px #d9dbdf;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-body:hover {
+  box-shadow: 8px 12px 18px #c5c7cb;
+  transform: translateY(-3px);
 }
 
 .visit-btn {

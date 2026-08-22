@@ -1,6 +1,11 @@
 .skills-main-div {
   display: flex;
   overflow: hidden;
+  align-items: center;
+}
+
+.skills-main-div.skills-reverse {
+  flex-direction: row-reverse;
 }
 
 .skills-header {
@@ -16,6 +21,7 @@
 
 .skills-text-div {
   margin-left: 50px;
+  margin-right: 50px;
   font-family: "Google Sans Regular";
 }
 
@@ -61,7 +67,8 @@
     font-size: 16px;
     line-height: normal;
   }
-  .skills-main-div {
+  .skills-main-div,
+  .skills-main-div.skills-reverse {
     flex-direction: column;
   }
   .skills-text-div {
