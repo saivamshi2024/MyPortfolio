@@ -1,6 +1,5 @@
 <h1 align="center"> Student Developer Portfolio 🔥 </h1> 
 <h3 align="center"> An Elegant, responsive and 100% customizable portfolio <br /> template for Student Developers! </h3>
-<h3 align="center"> Avulamanda Sai Vamshi (SaiVamshi.Asv) </h3>
 
 <p align="center"> 
     <a href="https://github.com/saivamshi2024/MyPortfolio" target="_blank">
