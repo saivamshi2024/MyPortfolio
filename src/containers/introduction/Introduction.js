@@ -29,7 +29,10 @@ class Introduction extends Component {
                   <p>{introduction.intro}</p>
 
                   <p>
-                    🎯 <strong>Current Focus:</strong>
+                    <span role="img" aria-label="target">
+                      🎯
+                    </span>{" "}
+                    <strong>Current Focus:</strong>
                   </p>
 
                   <ul>
@@ -39,7 +42,10 @@ class Introduction extends Component {
                   </ul>
 
                   <p>
-                    🌱 <strong>I'm Currently:</strong>
+                    <span role="img" aria-label="seedling">
+                      🌱
+                    </span>{" "}
+                    <strong>I'm Currently:</strong>
                   </p>
 
                   <ul>

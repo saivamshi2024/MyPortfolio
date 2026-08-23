@@ -14,8 +14,12 @@ import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
+    const isGitHubPages =
+      typeof window !== "undefined" &&
+      window.location.hostname.includes("github.io");
+
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={isGitHubPages ? "/MyPortfolio" : "/"}>
         <Switch>
           <Route
             path="/"
