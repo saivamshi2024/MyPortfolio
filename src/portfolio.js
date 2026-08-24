@@ -15,7 +15,7 @@ const seo = {
     type: "website",
     url: "https://my-portfolio-sandy-one-r6uaimwl3l.vercel.app/",
     image:
-      "https://my-portfolio-sandy-one-r6uaimwl3l.vercel.app/icons/desc.png",
+      "https://my-portfolio-sandy-one-r6uaimwl3l.vercel.app/icons/sai-vamshi-preview.png",
   },
 };
 
