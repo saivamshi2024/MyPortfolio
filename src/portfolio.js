@@ -11,9 +11,11 @@ const seo = {
   description:
     "An ambitious AI & Data Science developer. I’m very passionate about building real-world solutions using AI and data..",
   og: {
-    title: "Avulamanda Sai Vamshi portfolio",
+    title: "Avulamanda Sai Vamshi Portfolio",
     type: "website",
-    url: "http://www.AvulamandaSaiVamshi.com/",
+    url: "https://my-portfolio-sandy-one-r6uaimwl3l.vercel.app/",
+    image:
+      "https://my-portfolio-sandy-one-r6uaimwl3l.vercel.app/icons/desc.png",
   },
 };
 
