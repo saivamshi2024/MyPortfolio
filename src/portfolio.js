@@ -534,7 +534,7 @@ const experience = {
           duration: "June 2026 - Present",
           location: "Hyderabad, Telangana, India",
           description:
-            "Currently working as an Intern at Newmark, gaining hands-on experience in full-stack web development using C# and React. Contributing to web application projects and developing skills in both frontend and backend technologies.",
+            "Currently working as an Intern at Newmark on the NDI project, an AI initiative that converts unstructured documents and records into structured, usable data. Involved across the end-to-end process, including intake and preparation of source files, AI-based extraction of key fields, and review of the extracted output. Contribute to validation and quality checks to identify missing, incorrect, or inconsistent values. Support the accuracy-improvement cycle by comparing extracted results with expected data, studying error patterns, and helping refine the process so quality improves over time. Assist with exception handling and follow-up on cases that need correction before the data is used downstream. Work with the team to keep the NDI pipeline reliable, consistent, and ready for business use.",
           color: "#1D4ED8",
         },
 
